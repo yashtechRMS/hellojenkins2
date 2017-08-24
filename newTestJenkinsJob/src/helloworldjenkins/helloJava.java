@@ -2,15 +2,13 @@ package helloworldjenkins;
 
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class helloworld1Test {
+public class helloJava {
 
-	@Test
-	public void testHello() {
+	public void testjenkins(){
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "E:\\RMS\\RMS_Dec-22\\src\\test\\resources\\drivers\\chromedriver.exe");
 		// create chrome instance
@@ -31,5 +29,4 @@ public class helloworld1Test {
 			System.out.println("user is not logged into rms");
 		}
 	}
-
 }
