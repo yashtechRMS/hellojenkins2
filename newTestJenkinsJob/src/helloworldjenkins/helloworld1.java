@@ -24,7 +24,13 @@ public class helloworld1 {
 				if(title.equalsIgnoreCase("RMS | Dashboard")){
 					System.out.println("User is loged in into RMS app");
 					String name = driver.findElement(By.xpath("//a[@class='dropdown-toggle']/span")).getText();
-					System.out.println("Logged in user is : "+ name);
+					if(name.equalsIgnoreCase("saajan soni")){
+						System.out.println("Logged in user is : "+ name);
+					}else{
+						System.out.println("Invalid user");
+					}
+				}else{
+					System.out.println("user is not logged into rms");
 				}
 	}
 
