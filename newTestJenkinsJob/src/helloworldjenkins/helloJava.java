@@ -29,6 +29,7 @@ public class helloJava {
 			}
 		} else {
 			System.out.println("user is not logged into rms");
+			System.out.println("user is not logged into rms 2");
 		}
 	}
 }
