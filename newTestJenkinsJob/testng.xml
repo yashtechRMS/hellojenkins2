@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Default suite">
+	<test name="Hello world">
+		<classes>
+			<class name="helloworldjenkins.helloworld1"></class>
+			<class name="helloworldjenkins.helloworld2"></class>
+		</classes>
+	</test>	
+</suite>
