@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class helloworld1 {
 
-	static WebDriver driver;
+	WebDriver driver;
 
 	@Test
 	public void Hello() {
