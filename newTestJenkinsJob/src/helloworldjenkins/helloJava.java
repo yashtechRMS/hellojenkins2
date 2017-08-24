@@ -5,9 +5,11 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class helloJava {
 
+	@Test
 	public void testjenkins(){
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "E:\\RMS\\RMS_Dec-22\\src\\test\\resources\\drivers\\chromedriver.exe");
